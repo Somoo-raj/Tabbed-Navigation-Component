@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tabbed Navigation Component</title>
+  </head>
+  <body>
+    <div class="tabs-container">
+      <!-- Tab Buttons -->
+      <div class="tab-btns">
+        <button class="tab-btn active" data-target="html-content">HTML</button>
+        <button class="tab-btn" data-target="css-content">CSS</button>
+        <button class="tab-btn" data-target="js-content">JavaScript</button>
+      </div>
+
+      <!-- Tab Contents -->
+      <div class="tab-content-container">
+        <div id="html-content" class="tab-panel active">
+          <h3>HTML</h3>
+          <p>
+            HTML is the standard markup language for documents designed to be
+            displayed in a web browser.
+          </p>
+        </div>
+        <div id="css-content" class="tab-panel">
+          <h3>CSS</h3>
+          <p>
+            CSS is a style sheet language used for discribing the presentation
+            of a document written in HTML.
+          </p>
+        </div>
+        <div id="js-content" class="tab-panel">
+          <h3>JavaScript</h3>
+          <p>
+            JavaScript is a programming language that enables you to create
+            dynamically updating content and control multimedia.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
